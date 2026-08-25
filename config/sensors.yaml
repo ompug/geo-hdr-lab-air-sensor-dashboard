@@ -1,0 +1,28 @@
+sensors:
+  - id: air-sensor-01
+    name: Sensor 01
+    hostname: air-sensor-01-2b8844.dyn.uncc.edu
+  - id: air-sensor-02
+    name: Sensor 02
+    hostname: air-sensor-02-2c59a8.dyn.uncc.edu
+  - id: air-sensor-03
+    name: Sensor 03
+    hostname: air-sensor-03-3ec4c4.dyn.uncc.edu
+  - id: air-sensor-04
+    name: Sensor 04
+    hostname: air-sensor-04-420748.dyn.uncc.edu
+  - id: air-sensor-05
+    name: Sensor 05
+    hostname: air-sensor-05-3e4ca4.dyn.uncc.edu
+  - id: air-sensor-06
+    name: Sensor 06
+    hostname: air-sensor-06-2b991c.dyn.uncc.edu
+  - id: air-sensor-07
+    name: Sensor 07
+    hostname: air-sensor-07-3e2468.dyn.uncc.edu
+  - id: air-sensor-08
+    name: Sensor 08
+    hostname: air-sensor-08-411de4.dyn.uncc.edu
+  - id: air-sensor-09
+    name: Sensor 09
+    hostname: air-sensor-09-3f2018.dyn.uncc.edu

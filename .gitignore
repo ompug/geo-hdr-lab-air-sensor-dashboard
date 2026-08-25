@@ -1,0 +1,16 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+data/
+*.db
+*.db-shm
+*.db-wal
+.idea/
+.vscode/
+cloudflared/
+Thumbs.db
+.DS_Store

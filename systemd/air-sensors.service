@@ -1,0 +1,24 @@
+[Unit]
+Description=Apollo AIR-1 HTTP/SSE collector and dashboard
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=simple
+User=air-sensors
+Group=air-sensors
+WorkingDirectory=/opt/air-sensors
+EnvironmentFile=/etc/air-sensors/air-sensors.env
+ExecStart=/opt/air-sensors/.venv/bin/python -m app
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=20
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/air-sensors
+UMask=0027
+
+[Install]
+WantedBy=multi-user.target
